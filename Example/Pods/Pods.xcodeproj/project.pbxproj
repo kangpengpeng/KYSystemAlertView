@@ -1,0 +1,774 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BF1F3D2E7A5FD7AB770557FA47F5A77 /* Pods-KYSystemAlertView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D76176A088EF971914259625343964B /* Pods-KYSystemAlertView_Example-dummy.m */; };
+		0F2D14671337D2D20F03A34C7041C73D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		15E280982036067A7B83359942CF3655 /* KYSystemAlertView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B44BE2A40FEB4C208D6BB7DE3EF45773 /* KYSystemAlertView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24E7CE0B98911C7E0D56791F41E6ABE1 /* KYSystemAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 29432DE60EFE55E538AB236C25ABF424 /* KYSystemAlertView.m */; };
+		3FB3ECC1C838AAAD4CC365FECA98AE3D /* KYSystemAlertView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 104ECA7363538400B0BE6D109262EDDF /* KYSystemAlertView-dummy.m */; };
+		43D649879EA46D02F650A953C2A077CD /* Pods-KYSystemAlertView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 81C9CB76D52B62143E6B0A8BA4759C4C /* Pods-KYSystemAlertView_Tests-dummy.m */; };
+		690ADB99734D0F0F4E5ED504A9BB1C24 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		967023375727E26FB62CAD055784B142 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		9DB4FF909E3CA82870D9613A687FBA6B /* KYSystemAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = 54D620A4078A63A14C8F99D512DED939 /* KYSystemAlertView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5DD0667B55E1618000126313A883CD3 /* Pods-KYSystemAlertView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CEC68F732A77628F6C02DD906CBB9F18 /* Pods-KYSystemAlertView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F41A111F8EC327525A262842387AB8D4 /* Pods-KYSystemAlertView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 07606BCCCCC7D15A94D2D2729D2E8AE3 /* Pods-KYSystemAlertView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6F4E2B7155152134E67A42F7D2C6F92C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2C6577D0CEFF1BE8155DBFBA2FA051B;
+			remoteInfo = "Pods-KYSystemAlertView_Example";
+		};
+		D4FC79ECDA2D8339E99A19643A78724E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCCB6826A3C595013B8FA9F7F56CF599;
+			remoteInfo = KYSystemAlertView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02AD4F3B429A243485102E2A7A5917D3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		07606BCCCCC7D15A94D2D2729D2E8AE3 /* Pods-KYSystemAlertView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KYSystemAlertView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		0C84A1F44655318438ED39CF1FC1AEBC /* Pods-KYSystemAlertView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KYSystemAlertView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		104ECA7363538400B0BE6D109262EDDF /* KYSystemAlertView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KYSystemAlertView-dummy.m"; sourceTree = "<group>"; };
+		27BB1FA620C95AA65BEE88ADD5D659F2 /* Pods-KYSystemAlertView_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-KYSystemAlertView_Tests"; path = Pods_KYSystemAlertView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		29432DE60EFE55E538AB236C25ABF424 /* KYSystemAlertView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KYSystemAlertView.m; path = KYSystemAlertView/Classes/KYSystemAlertView.m; sourceTree = "<group>"; };
+		2AF154C247ED316A0BCB8A959123711B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		35832EC0A81D4FD6EFFE041A808D0B69 /* Pods-KYSystemAlertView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KYSystemAlertView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		42B4B51E9E87CE7E3B41B572753ACCEB /* Pods-KYSystemAlertView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KYSystemAlertView_Tests-Info.plist"; sourceTree = "<group>"; };
+		481F14ACCDB32874821450308811EF6B /* KYSystemAlertView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KYSystemAlertView.debug.xcconfig; sourceTree = "<group>"; };
+		4C6E34AC3E789E0817263D02F2A0A7DA /* KYSystemAlertView */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KYSystemAlertView; path = KYSystemAlertView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FB45F21FE9DCC1E7882C1DC421129F6 /* Pods-KYSystemAlertView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KYSystemAlertView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		54D620A4078A63A14C8F99D512DED939 /* KYSystemAlertView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KYSystemAlertView.h; path = KYSystemAlertView/Classes/KYSystemAlertView.h; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7464134C74277836C3423F7D4A07CA08 /* Pods-KYSystemAlertView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KYSystemAlertView_Tests.modulemap"; sourceTree = "<group>"; };
+		7C4DA49EB3C47FA5246A67DB2BD7BC4F /* KYSystemAlertView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = KYSystemAlertView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		81C9CB76D52B62143E6B0A8BA4759C4C /* Pods-KYSystemAlertView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KYSystemAlertView_Tests-dummy.m"; sourceTree = "<group>"; };
+		82914E36ADE66054FEB36AAD5BE0556B /* Pods-KYSystemAlertView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KYSystemAlertView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		887D31F6C3AB38EAFA52B5E983097660 /* Pods-KYSystemAlertView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KYSystemAlertView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		8D76176A088EF971914259625343964B /* Pods-KYSystemAlertView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KYSystemAlertView_Example-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DE0AC03C08D4CB8B393092FAB75D5C4 /* Pods-KYSystemAlertView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KYSystemAlertView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A350CDC75C7842F48566A1E163EF0701 /* KYSystemAlertView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KYSystemAlertView.modulemap; sourceTree = "<group>"; };
+		B44BE2A40FEB4C208D6BB7DE3EF45773 /* KYSystemAlertView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KYSystemAlertView-umbrella.h"; sourceTree = "<group>"; };
+		C9D89063D003CEAD8F3B30342B38C0F6 /* KYSystemAlertView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KYSystemAlertView-Info.plist"; sourceTree = "<group>"; };
+		CD1FC2506526A1F2748B84993AA7716E /* Pods-KYSystemAlertView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KYSystemAlertView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CEC68F732A77628F6C02DD906CBB9F18 /* Pods-KYSystemAlertView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KYSystemAlertView_Example-umbrella.h"; sourceTree = "<group>"; };
+		D8E2D6B6AC168C3F96ECA10FE75746B5 /* KYSystemAlertView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KYSystemAlertView-prefix.pch"; sourceTree = "<group>"; };
+		D981438EC33E1C2467D3ECC4411718A1 /* Pods-KYSystemAlertView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KYSystemAlertView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		DB652F0B09410248457E31E2E60259CB /* Pods-KYSystemAlertView_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-KYSystemAlertView_Example"; path = Pods_KYSystemAlertView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4FEF5296C92095CDF552818C359A0E7 /* Pods-KYSystemAlertView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KYSystemAlertView_Example-Info.plist"; sourceTree = "<group>"; };
+		EC8FCE70F5B4DA31991B491ACFD81BD0 /* Pods-KYSystemAlertView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KYSystemAlertView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F60E30388D83DE2EBB641B01727E59E4 /* KYSystemAlertView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KYSystemAlertView.release.xcconfig; sourceTree = "<group>"; };
+		F9028757AC1081F3FF86271CEC30D3EA /* Pods-KYSystemAlertView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KYSystemAlertView_Example.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16EB0F02F2760B4175026276469EBED3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				690ADB99734D0F0F4E5ED504A9BB1C24 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67F496DDD6EE05DC2BFF25D1FD0E13F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F2D14671337D2D20F03A34C7041C73D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CF29D1ADDA416D0BB45840F7C5ABA48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				967023375727E26FB62CAD055784B142 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38BDCE48D37018ED11F40F8ECE0747C2 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				7C4DA49EB3C47FA5246A67DB2BD7BC4F /* KYSystemAlertView.podspec */,
+				02AD4F3B429A243485102E2A7A5917D3 /* LICENSE */,
+				2AF154C247ED316A0BCB8A959123711B /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		46F7124DD37ABBB7BE35FBF92A867FBF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C6E34AC3E789E0817263D02F2A0A7DA /* KYSystemAlertView */,
+				DB652F0B09410248457E31E2E60259CB /* Pods-KYSystemAlertView_Example */,
+				27BB1FA620C95AA65BEE88ADD5D659F2 /* Pods-KYSystemAlertView_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		72651C5D81F279168646238FD8691B9E /* Pods-KYSystemAlertView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				F9028757AC1081F3FF86271CEC30D3EA /* Pods-KYSystemAlertView_Example.modulemap */,
+				9DE0AC03C08D4CB8B393092FAB75D5C4 /* Pods-KYSystemAlertView_Example-acknowledgements.markdown */,
+				887D31F6C3AB38EAFA52B5E983097660 /* Pods-KYSystemAlertView_Example-acknowledgements.plist */,
+				8D76176A088EF971914259625343964B /* Pods-KYSystemAlertView_Example-dummy.m */,
+				4FB45F21FE9DCC1E7882C1DC421129F6 /* Pods-KYSystemAlertView_Example-frameworks.sh */,
+				E4FEF5296C92095CDF552818C359A0E7 /* Pods-KYSystemAlertView_Example-Info.plist */,
+				CEC68F732A77628F6C02DD906CBB9F18 /* Pods-KYSystemAlertView_Example-umbrella.h */,
+				35832EC0A81D4FD6EFFE041A808D0B69 /* Pods-KYSystemAlertView_Example.debug.xcconfig */,
+				EC8FCE70F5B4DA31991B491ACFD81BD0 /* Pods-KYSystemAlertView_Example.release.xcconfig */,
+			);
+			name = "Pods-KYSystemAlertView_Example";
+			path = "Target Support Files/Pods-KYSystemAlertView_Example";
+			sourceTree = "<group>";
+		};
+		8585E77D9C9F875E0AE6FB3AAD951F0C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EDEB8FBF56EFFC1961ED633760BD5BB7 /* KYSystemAlertView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A23859EEA553094F0B945A68CD2F4E95 /* Pods-KYSystemAlertView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7464134C74277836C3423F7D4A07CA08 /* Pods-KYSystemAlertView_Tests.modulemap */,
+				CD1FC2506526A1F2748B84993AA7716E /* Pods-KYSystemAlertView_Tests-acknowledgements.markdown */,
+				0C84A1F44655318438ED39CF1FC1AEBC /* Pods-KYSystemAlertView_Tests-acknowledgements.plist */,
+				81C9CB76D52B62143E6B0A8BA4759C4C /* Pods-KYSystemAlertView_Tests-dummy.m */,
+				42B4B51E9E87CE7E3B41B572753ACCEB /* Pods-KYSystemAlertView_Tests-Info.plist */,
+				07606BCCCCC7D15A94D2D2729D2E8AE3 /* Pods-KYSystemAlertView_Tests-umbrella.h */,
+				82914E36ADE66054FEB36AAD5BE0556B /* Pods-KYSystemAlertView_Tests.debug.xcconfig */,
+				D981438EC33E1C2467D3ECC4411718A1 /* Pods-KYSystemAlertView_Tests.release.xcconfig */,
+			);
+			name = "Pods-KYSystemAlertView_Tests";
+			path = "Target Support Files/Pods-KYSystemAlertView_Tests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				8585E77D9C9F875E0AE6FB3AAD951F0C /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				46F7124DD37ABBB7BE35FBF92A867FBF /* Products */,
+				DB8A6BD1ADE48062CCC0DCB1FFE99A7F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB8A6BD1ADE48062CCC0DCB1FFE99A7F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				72651C5D81F279168646238FD8691B9E /* Pods-KYSystemAlertView_Example */,
+				A23859EEA553094F0B945A68CD2F4E95 /* Pods-KYSystemAlertView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		EBF2D88A5B05A57C77B221D7B9639440 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A350CDC75C7842F48566A1E163EF0701 /* KYSystemAlertView.modulemap */,
+				104ECA7363538400B0BE6D109262EDDF /* KYSystemAlertView-dummy.m */,
+				C9D89063D003CEAD8F3B30342B38C0F6 /* KYSystemAlertView-Info.plist */,
+				D8E2D6B6AC168C3F96ECA10FE75746B5 /* KYSystemAlertView-prefix.pch */,
+				B44BE2A40FEB4C208D6BB7DE3EF45773 /* KYSystemAlertView-umbrella.h */,
+				481F14ACCDB32874821450308811EF6B /* KYSystemAlertView.debug.xcconfig */,
+				F60E30388D83DE2EBB641B01727E59E4 /* KYSystemAlertView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/KYSystemAlertView";
+			sourceTree = "<group>";
+		};
+		EDEB8FBF56EFFC1961ED633760BD5BB7 /* KYSystemAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				54D620A4078A63A14C8F99D512DED939 /* KYSystemAlertView.h */,
+				29432DE60EFE55E538AB236C25ABF424 /* KYSystemAlertView.m */,
+				38BDCE48D37018ED11F40F8ECE0747C2 /* Pod */,
+				EBF2D88A5B05A57C77B221D7B9639440 /* Support Files */,
+			);
+			name = KYSystemAlertView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		82DDFC38C55CBCF0528778DADFA7D88F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DB4FF909E3CA82870D9613A687FBA6B /* KYSystemAlertView.h in Headers */,
+				15E280982036067A7B83359942CF3655 /* KYSystemAlertView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8C254DF247178F1F2DCC52A3DEC24BB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5DD0667B55E1618000126313A883CD3 /* Pods-KYSystemAlertView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAB9A9DE286D29F43EA28756ED95EE0B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F41A111F8EC327525A262842387AB8D4 /* Pods-KYSystemAlertView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		EDDE9F73FF8A9B287840EB78B6AE0F3C /* Pods-KYSystemAlertView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F420526873DC51CD8B4D29123482F425 /* Build configuration list for PBXNativeTarget "Pods-KYSystemAlertView_Tests" */;
+			buildPhases = (
+				EAB9A9DE286D29F43EA28756ED95EE0B /* Headers */,
+				C7518AEAFDE0D813DD3902B0BF28B823 /* Sources */,
+				8CF29D1ADDA416D0BB45840F7C5ABA48 /* Frameworks */,
+				EC33C5E41CBCB4AE3FA94FE6D428C11B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB183992CFDEDE67A362777872592772 /* PBXTargetDependency */,
+			);
+			name = "Pods-KYSystemAlertView_Tests";
+			productName = Pods_KYSystemAlertView_Tests;
+			productReference = 27BB1FA620C95AA65BEE88ADD5D659F2 /* Pods-KYSystemAlertView_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		F2C6577D0CEFF1BE8155DBFBA2FA051B /* Pods-KYSystemAlertView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEB012E0DAF4F6D2967D26677370A44E /* Build configuration list for PBXNativeTarget "Pods-KYSystemAlertView_Example" */;
+			buildPhases = (
+				D8C254DF247178F1F2DCC52A3DEC24BB /* Headers */,
+				18D3D9A1376C39A2E9AEC32B2C08F3E5 /* Sources */,
+				16EB0F02F2760B4175026276469EBED3 /* Frameworks */,
+				2ABDE590446C92BBE32B268E7797284F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0AA2068D7C8932F1B4792C715F892885 /* PBXTargetDependency */,
+			);
+			name = "Pods-KYSystemAlertView_Example";
+			productName = Pods_KYSystemAlertView_Example;
+			productReference = DB652F0B09410248457E31E2E60259CB /* Pods-KYSystemAlertView_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		FCCB6826A3C595013B8FA9F7F56CF599 /* KYSystemAlertView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 459C45DFB71560D965B5CED7243D68CF /* Build configuration list for PBXNativeTarget "KYSystemAlertView" */;
+			buildPhases = (
+				82DDFC38C55CBCF0528778DADFA7D88F /* Headers */,
+				0D7DE016594564B00FC8E75F64C64FC0 /* Sources */,
+				67F496DDD6EE05DC2BFF25D1FD0E13F7 /* Frameworks */,
+				C4956CC1F7B68E9D5979B703BB70A7DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KYSystemAlertView;
+			productName = KYSystemAlertView;
+			productReference = 4C6E34AC3E789E0817263D02F2A0A7DA /* KYSystemAlertView */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 46F7124DD37ABBB7BE35FBF92A867FBF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCCB6826A3C595013B8FA9F7F56CF599 /* KYSystemAlertView */,
+				F2C6577D0CEFF1BE8155DBFBA2FA051B /* Pods-KYSystemAlertView_Example */,
+				EDDE9F73FF8A9B287840EB78B6AE0F3C /* Pods-KYSystemAlertView_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2ABDE590446C92BBE32B268E7797284F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4956CC1F7B68E9D5979B703BB70A7DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC33C5E41CBCB4AE3FA94FE6D428C11B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D7DE016594564B00FC8E75F64C64FC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24E7CE0B98911C7E0D56791F41E6ABE1 /* KYSystemAlertView.m in Sources */,
+				3FB3ECC1C838AAAD4CC365FECA98AE3D /* KYSystemAlertView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18D3D9A1376C39A2E9AEC32B2C08F3E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BF1F3D2E7A5FD7AB770557FA47F5A77 /* Pods-KYSystemAlertView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7518AEAFDE0D813DD3902B0BF28B823 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43D649879EA46D02F650A953C2A077CD /* Pods-KYSystemAlertView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0AA2068D7C8932F1B4792C715F892885 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KYSystemAlertView;
+			target = FCCB6826A3C595013B8FA9F7F56CF599 /* KYSystemAlertView */;
+			targetProxy = D4FC79ECDA2D8339E99A19643A78724E /* PBXContainerItemProxy */;
+		};
+		AB183992CFDEDE67A362777872592772 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-KYSystemAlertView_Example";
+			target = F2C6577D0CEFF1BE8155DBFBA2FA051B /* Pods-KYSystemAlertView_Example */;
+			targetProxy = 6F4E2B7155152134E67A42F7D2C6F92C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		132876CEF331B448C957BD097CAC256B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 481F14ACCDB32874821450308811EF6B /* KYSystemAlertView.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KYSystemAlertView/KYSystemAlertView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KYSystemAlertView/KYSystemAlertView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KYSystemAlertView/KYSystemAlertView.modulemap";
+				PRODUCT_MODULE_NAME = KYSystemAlertView;
+				PRODUCT_NAME = KYSystemAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		17A7F874983849D2115E849F36903A0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D981438EC33E1C2467D3ECC4411718A1 /* Pods-KYSystemAlertView_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KYSystemAlertView_Tests/Pods-KYSystemAlertView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KYSystemAlertView_Tests/Pods-KYSystemAlertView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		288080B1110041B67579C90C180330D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82914E36ADE66054FEB36AAD5BE0556B /* Pods-KYSystemAlertView_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KYSystemAlertView_Tests/Pods-KYSystemAlertView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KYSystemAlertView_Tests/Pods-KYSystemAlertView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5C9220919D828479CE16AACFBEC9BD51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35832EC0A81D4FD6EFFE041A808D0B69 /* Pods-KYSystemAlertView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KYSystemAlertView_Example/Pods-KYSystemAlertView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KYSystemAlertView_Example/Pods-KYSystemAlertView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0DB7BE5EF2E49A66DBE58B2EE404588 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F60E30388D83DE2EBB641B01727E59E4 /* KYSystemAlertView.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KYSystemAlertView/KYSystemAlertView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KYSystemAlertView/KYSystemAlertView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KYSystemAlertView/KYSystemAlertView.modulemap";
+				PRODUCT_MODULE_NAME = KYSystemAlertView;
+				PRODUCT_NAME = KYSystemAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		EA0D18AF05AA8BF54B6E00193F5E0F34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC8FCE70F5B4DA31991B491ACFD81BD0 /* Pods-KYSystemAlertView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KYSystemAlertView_Example/Pods-KYSystemAlertView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KYSystemAlertView_Example/Pods-KYSystemAlertView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		459C45DFB71560D965B5CED7243D68CF /* Build configuration list for PBXNativeTarget "KYSystemAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				132876CEF331B448C957BD097CAC256B /* Debug */,
+				B0DB7BE5EF2E49A66DBE58B2EE404588 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEB012E0DAF4F6D2967D26677370A44E /* Build configuration list for PBXNativeTarget "Pods-KYSystemAlertView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C9220919D828479CE16AACFBEC9BD51 /* Debug */,
+				EA0D18AF05AA8BF54B6E00193F5E0F34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F420526873DC51CD8B4D29123482F425 /* Build configuration list for PBXNativeTarget "Pods-KYSystemAlertView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				288080B1110041B67579C90C180330D0 /* Debug */,
+				17A7F874983849D2115E849F36903A0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

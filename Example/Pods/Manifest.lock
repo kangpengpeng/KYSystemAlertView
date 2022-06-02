@@ -1,0 +1,16 @@
+PODS:
+  - KYSystemAlertView (0.1.0)
+
+DEPENDENCIES:
+  - KYSystemAlertView (from `../`)
+
+EXTERNAL SOURCES:
+  KYSystemAlertView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KYSystemAlertView: f8c587bdcb4c9e8f50bdddd43313e7a6f387e8e2
+
+PODFILE CHECKSUM: 8c801baed2eeb82db524e0e7ceacd384ef990322
+
+COCOAPODS: 1.11.0

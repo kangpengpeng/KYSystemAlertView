@@ -1,0 +1,6 @@
+framework module KYSystemAlertView {
+  umbrella header "KYSystemAlertView-umbrella.h"
+
+  export *
+  module * { export * }
+}

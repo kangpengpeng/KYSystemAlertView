@@ -1,0 +1,16 @@
+source 'https://gitee.com/kangpp/kycomponent-spec.git'
+
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'KYSystemAlertView_Example' do
+  #pod 'KYSystemAlertView'
+  pod 'KYSystemAlertView', :path => '../'
+
+  target 'KYSystemAlertView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
